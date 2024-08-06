@@ -185,6 +185,8 @@ userInput.addEventListener("keydown",(e)=>{
 
  //render for the form
 
+ //Add form atributes where it will save and make sure that the form will display entries below, maybe with a pop-up?
+
 const renderForm = ()=>{
     displayTodo.innerHTML = ""
     displayTodo.innerHTML= `<div id="form">
