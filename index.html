@@ -46,11 +46,28 @@
                             <input id="weird" type="text">
                             <label for="random-notes">Random notes</label>
                             <input id="random-notes" type="text">
-                            <button type="submit" id="submitForm">Submit</button>
+                            <button type="button" id="submitForm">Submit</button>
                         </form>
                        </div> -->
-                </div>
+                       <div class="hidden" id="scroll-container"></div>
+                    
+                    </div>
             </div>
+            <dialog id="form-modal">
+              <h3 class="form-header"> Date</h3>
+              <p class="form-text"></p>
+              <h3 class="form-header">Event</h3>
+              <p class="form-text"></p>
+              <h3 class="form-header">What went well? </h3>
+              <p class="form-text"></p>
+              <h3 class="form-header">What do you want to improve? </h3>
+              <p class="form-text"></p>
+              <h3 class="form-header">Most Memmorable moment</h3>
+              <p class="form-text"></p>
+              <h3 class="form-header">Notes</h3>
+              <p class="form-text"></p>
+              <button onclick="dialog.close()" id="close-modal">Close</button>
+            </dialog>
 
             
     </body>
